@@ -1,0 +1,268 @@
+.layer1 {
+    background-image: url(/assets/images/Rectangle\ 1\ \(1\).png);
+    height: 840px;
+}
+
+#navbarSupportedContent a {
+    color: #ffff;
+    font-family: Quicksand;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px;
+}
+
+#btn1 {
+    background-color: #aab33c;
+    color: #ffff;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: stylic;
+    src: url(/assets/css/00819\ Regular.ttf)
+}
+
+.par1 {
+    font-family: stylic;
+    color: #aab33c;
+    font-size: 80px;
+}
+
+.par2 {
+    font-family: Quicksand;
+    color: #ffff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: -30px;
+    text-transform: uppercase;
+}
+
+#btn2 {
+    background-color: #aab33c;
+    color: #ffff;
+    text-align: center;
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.par3 {
+    font-family: Quicksand;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #404142;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    font-family: Quicksand;
+    color: #404142;
+    background-color: rgba(170, 179, 60, 0.302);
+    text-align: center;
+    font-size: 24px;
+}
+
+.par4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.par5,
+.par6 {
+    font-size: 14px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+.figure-caption1,
+.figure-caption2 {
+    font-size: 20px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.layer3 {
+    background-color: rgba(170, 179, 60, 0.102);
+    background-repeat: no-repeat;
+}
+
+.par7 {
+    font-size: 50px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.par8,
+.par9,
+.par10 {
+    font-size: 14px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#btn3 {
+    background-color: #aab33c;
+    color: #ffff;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+thead {
+    background-color: rgb(170, 179, 59);
+    font-family: Quicksand;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+#tp1,
+#tp2 {
+    font-size: 11px;
+    color: #ffff;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+tbody {
+    font-size: 11px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+tr:nth-child(even) {
+    background-color: rgba(170, 179, 60, 0.302);
+}
+
+tr:nth-child(7) {
+    font-size: 25px;
+    color: #aab33b;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#tp3 {
+    font-size: 16px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#t71,
+#t72 {
+    font-size: 16px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.par11 {
+    font-size: 35px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.layer5 {
+    background-image: url(/assets/images/Rect.png);
+}
+
+.card4 {
+    font-size: 14px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#par12 {
+    font-size: 35px;
+
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+#btn4 {
+    background-color: #aab33c;
+    color: #ffff;
+    width: 235px;
+    height: 47px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.layer7 .container-fluid {
+    background-image: url(/assets/images/Rectangle\ 18.png);
+}
+
+@font-face {
+    font-family: open sans;
+    src: url(/assets/css/Open\ Sans\ Light.ttf);
+}
+
+.par13,
+.par15,
+.par19 {
+    font-size: 18px;
+    color: #404142;
+    font-weight: 900;
+    font-family: open sans;
+    font-weight: bold;
+}
+
+.par14,
+.par16,
+.par17,
+.par18 {
+    font-size: 12px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.par20 a,
+.par21 a {
+    font-size: 12px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+#btn5 {
+    width: 112px;
+    height: 42px;
+    border-radius: 3px;
+    background-color: #aab33b;
+    color: #ffff;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+form input {
+    font-size: 16px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
