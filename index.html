@@ -13,6 +13,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d7200c44d8.js" crossorigin="anonymous"></script>
     <title>Real Estate Analysis</title>
+    <script>
+        $().ready(function(){
+            $("#myform").validate({
+                rules:{
+                    name:{
+                        pattern:/^(?=.*[A-Z])(?=.*[a-z]){8,15}$/
+                    },
+                    email:{
+                        pattern:/^[a-z]+[@]+[a-z]+[\.][com]{3}$/
+                    },
+                    phone:{
+                        pattern:/^?=.*[0-9]{10}$/
+                    }
+                },
+                messages:{
+                    name:{
+                        pattern:"pattern format is wrong"
+                    },
+                    email:{
+                        pattern:"pattern format is wrong"
+                    }
+                    ,
+                    phone:{
+                        pattern:"pattern format is wrong"
+                    }
+                }
+
+            });
+           
+        }
+        );
+        
+    </script>
 </head>
 
 <body>
@@ -341,14 +374,14 @@
                         </div>
                     </div>
                     <div class="col-3">
-                        <form style="white-space:pre-line;">
+                        <form style="white-space:pre-line;" name="myform">
                             <i class="fa-solid fa-user"
                                 style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
                             type="text" name="name" placeholder="Name">
 
                             <i class="fa-sharp fa-solid fa-envelope"
                                 style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
-                                type="email" name="email" placeholder="Email">
+                                type="text" name="email" placeholder="Email">
 
                             <i class="fa-sharp fa-solid fa-square-phone"
                                 style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
