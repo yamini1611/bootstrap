@@ -1,8 +1,9 @@
+/* layer */
 .layer1 {
     background-image: url(/assets/images/Rectangle\ 1\ \(1\).png);
     height: 840px;
 }
-
+/* navbar */
 #navbarSupportedContent a {
     color: #ffff;
     font-family: Quicksand;
@@ -11,7 +12,7 @@
     font-size: 16px;
     padding: 20px;
 }
-
+/* get the deal button */
 #btn1 {
     background-color: #aab33c;
     color: #ffff;
@@ -19,18 +20,21 @@
     height: 40px;
     text-align: center;
 }
-
+/* fonts */
 @font-face {
     font-family: stylic;
     src: url(/assets/css/00819\ Regular.ttf)
 }
-
+@font-face {
+    font-family: open sans;
+    src: url(/assets/css/Open\ Sans\ Light.ttf);
+}
 .par1 {
     font-family: stylic;
     color: #aab33c;
     font-size: 80px;
 }
-
+/* section 1 content */
 .par2 {
     font-family: Quicksand;
     color: #ffff;
@@ -39,7 +43,7 @@
     margin-top: -30px;
     text-transform: uppercase;
 }
-
+/* START NOW  button*/
 #btn2 {
     background-color: #aab33c;
     color: #ffff;
@@ -50,7 +54,7 @@
     font-weight: 700;
     font-family: "Quicksand";
 }
-
+/* section 2 */
 .par3 {
     font-family: Quicksand;
     font-size: 30px;
@@ -58,7 +62,7 @@
     font-weight: 700;
     color: #404142;
 }
-
+/* cards */
 .card1,
 .card2,
 .card3,
@@ -67,9 +71,19 @@
     color: #404142;
     background-color: rgba(170, 179, 60, 0.302);
     text-align: center;
+    font-weight: 700;
     font-size: 24px;
 }
 
+#c4 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #404142;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
+}
+/* section 2 content */
 .par4 {
     font-size: 30px;
     text-transform: uppercase;
@@ -85,7 +99,7 @@
     font-weight: 500;
     font-family: "Quicksand";
 }
-
+/* icons */
 .figure-caption1,
 .figure-caption2 {
     font-size: 20px;
@@ -93,7 +107,7 @@
     font-weight: 700;
     font-family: "Quicksand";
 }
-
+/* section 3 */
 .layer3 {
     background-color: rgba(170, 179, 60, 0.102);
     background-repeat: no-repeat;
@@ -114,7 +128,7 @@
     font-weight: 500;
     font-family: "Quicksand";
 }
-
+/* button 3 */
 #btn3 {
     background-color: #aab33c;
     color: #ffff;
@@ -125,7 +139,8 @@
     font-weight: 700;
     font-family: "Quicksand";
 }
-
+/* section 4 */
+/* table content */
 thead {
     background-color: rgb(170, 179, 59);
     font-family: Quicksand;
@@ -153,6 +168,14 @@ tr:nth-child(even) {
     background-color: rgba(170, 179, 60, 0.302);
 }
 
+#t1 {
+    font-size: 12px;
+    line-height: 14px;
+    color: #404142;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
 tr:nth-child(7) {
     font-size: 25px;
     color: #aab33b;
@@ -175,6 +198,16 @@ tr:nth-child(7) {
     font-family: "Quicksand";
 }
 
+#ps-5 {
+    padding-top: 20px;
+    padding-left: 69px;
+}
+/* section 5 */
+#k1 {
+    padding-top: 20px;
+
+}
+
 .par11 {
     font-size: 35px;
     color: #404142;
@@ -185,14 +218,14 @@ tr:nth-child(7) {
 .layer5 {
     background-image: url(/assets/images/Rect.png);
 }
-
+/* cards */
 .card4 {
     font-size: 14px;
     color: #404142;
     font-weight: 500;
     font-family: "Quicksand";
 }
-
+/* section 6 para */
 #par12 {
     font-size: 35px;
 
@@ -209,27 +242,22 @@ tr:nth-child(7) {
     font-size: 18px;
     font-weight: 700;
     font-family: "Quicksand";
-}
 
+}
+/* section 7 */
 .layer7 .container-fluid {
     background-image: url(/assets/images/Rectangle\ 18.png);
-}
-
-@font-face {
-    font-family: open sans;
-    src: url(/assets/css/Open\ Sans\ Light.ttf);
 }
 
 .par13,
 .par15,
 .par19 {
-    font-size: 18px;
+    font-size: 22px;
     color: #404142;
     font-weight: 900;
     font-family: open sans;
     font-weight: bold;
 }
-
 .par14,
 .par16,
 .par17,
@@ -239,7 +267,6 @@ tr:nth-child(7) {
     font-weight: 700;
     font-family: "Open Sans";
 }
-
 .par20 a,
 .par21 a {
     font-size: 12px;
@@ -249,7 +276,7 @@ tr:nth-child(7) {
     text-decoration: none;
     text-decoration-line: none;
 }
-
+/* start now button  */
 #btn5 {
     width: 112px;
     height: 42px;
@@ -259,10 +286,24 @@ tr:nth-child(7) {
     font-family: "Open Sans";
     font-weight: 700;
 }
-
+/* form content */
 form input {
     font-size: 16px;
     color: #404142;
     font-weight: 700;
     font-family: "Open Sans";
+}
+/* footer */
+#h1 {
+    background-color: #aab33c;
+}
+#v1 {
+    font-size: 19px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 20px;
+    font-weight: 500;
+    font-family: "Quicksand";
 }

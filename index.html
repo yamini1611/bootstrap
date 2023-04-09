@@ -12,43 +12,51 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d7200c44d8.js" crossorigin="anonymous"></script>
-    <title>Real Estate Analysis</title>
+    <title>PSD WEBSITE</title>
+    <!-- form validation -->
     <script>
-        $().ready(function(){
-            $("#myform").validate({
-                rules:{
-                    name:{
-                        pattern:/^(?=.*[A-Z])(?=.*[a-z]){8,15}$/
+        $().ready(function () {
+            $("#form1").validate({
+                rules: {
+                    name: {
+                        required:true,
+                        pattern: /^(?=.*[A-Z])(?=.*[a-z]){8,15}$/
                     },
-                    email:{
-                        pattern:/^[a-z]+[@]+[a-z]+[\.][com]{3}$/
+                    email: {
+                        required:true,
+                        pattern: /^[a-z]+[@]+[a-z]+[\.][com]{3}$/
                     },
-                    phone:{
-                        pattern:/^?=.*[0-9]{10}$/
+                    phone: {
+                        required:true,
+                        pattern: /^?=.*[0-9]{10}$/
                     }
                 },
-                messages:{
-                    name:{
-                        pattern:"pattern format is wrong"
+                messages: {
+                    name: {
+                        required:"this is a required field",
+                        pattern: "pattern format is wrong"
                     },
-                    email:{
-                        pattern:"pattern format is wrong"
+                    email: {
+                        required:"this is a required field",
+                        pattern: "pattern format is wrong"
                     }
                     ,
-                    phone:{
-                        pattern:"pattern format is wrong"
+                    phone: {
+                        required:"this is a required field",
+                        pattern: "pattern format is wrong"
                     }
                 }
 
             });
-           
+
         }
         );
-        
+
     </script>
 </head>
 
 <body>
+    <!-- section 1 -->
     <div class="container-fluid">
         <div class="layer1">
             <nav class="navbar navbar-expand-lg navbar-dark">
@@ -58,6 +66,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    <!-- navbar -->
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
@@ -85,6 +94,7 @@
                     </div>
                 </div>
             </nav>
+            <!-- section 1 content -->
             <div class="container">
                 <div class="row">
                     <div class="col-5 mt-5 pt-5">
@@ -99,10 +109,12 @@
             </div>
         </div>
     </div>
+    <!-- section 2 -->
     <div class="container layer2">
         <figure class="text-center">
             <p class="par3">to make an informed decision when<br> buying or purchasing an income<br> property !</p>
         </figure>
+        <!-- cards -->
         <div class="card-group">
             <div class="card1 ms-lg-4" style="width:17rem;height:15rem">
                 <img src="assets/images/card1 img.png" style="justify-self: center;margin-top: 15px;">
@@ -125,10 +137,11 @@
             <div class="card4 ms-lg-4" style="width:17rem;height:15rem">
                 <img src="assets/images/card4 img.png" style="justify-self: center;margin-top: 15px;">
                 <div class="card-body text-center">
-                    <p class="card-text">Sell price evaluation feature</p>
+                    <p class="card-text" id="c4">Sell price evaluation feature</p>
                 </div>
             </div>
         </div>
+        <!-- section 2 content -->
         <img src="assets/images/Layer 108.png" class="rounded float-end mt-5">
         <div class="col-4 ms-4 mt-5 pt-5">
             <div class="par4">
@@ -155,6 +168,7 @@
                 </div>
             </div>
         </div>
+        <!-- icons -->
         <figure class="figure col-4 pb-5 mt-5 ms-4">
             <img src="assets/images/Layer 110.png" class="figure-img img-fluid rounded flaot-start mt-5"
                 style="background-color:  rgba(170, 179, 60, 0.302);padding: 10px;justify-self: center;">
@@ -166,6 +180,7 @@
             <figcaption class="figure-caption1 col-8">COMMERCIAL LEASES SPECIALLY ADOPTED</figcaption>
         </figure>
     </div>
+    <!-- section 3 -->
     <div class="layer3 pb-5">
         <div class="container pt-5 pb-5 mt-5">
             <img src="assets/images/Rectangle 33.png" class="rounded float-start mt-3">
@@ -189,10 +204,13 @@
                     Personalize document for your client, friend or financial institution
                 </p>
             </div>
+            <!-- button -->
             <button type="button" class="btn btn-success float-end" id="btn3">VIEW SAMPLE REPORT</button>
         </div>
     </div>
+    <!-- section 4 -->
     <div class="container mt-5">
+        <!-- table -->
         <table class="table table-success table-striped mt-5">
             <table class="table mt-5 p-5">
                 <thead>
@@ -209,55 +227,57 @@
                 </thead>
                 <tbody class="pt-5 pb-5">
                     <tr>
-                        <td style="white-space: pre-line;">Général
+                        <td style="white-space: pre-line;" id="t1">Général
                             Market your properties on the web !
                             Your properties will be accessible from anywhere to anyone! Add links to your website,
                             newsletter, e-mails, etc.
                             Click here to view a sample
                         </td>
-                        <td class="ps-5"></td>
-                        <td></td>
+                        <td id="ps-5"><img src="assets/images/tick.png" class="img-fluid" alt="..."></td>
+                        <td id="ps-5"><img src="assets/images/tick.png" class="img-fluid" alt="..."></td>
                     </tr>
                     <tr>
-                        <td style="white-space: pre-line;">Data
+                        <td style="white-space: pre-line;" id="t1">Data
                             Flexible mortgage (frequency, amortization, interest rate)
                         </td>
-                        <td class="ps-5"></td>
-                        <td></td>
+                        <td id="ps-5"><img src="assets/images/tick.png" class="img-fluid" alt="..."></td>
+                        <td id="ps-5"><img src="assets/images/tick.png" class="img-fluid" alt="..."></td>
                     </tr>
                     <tr>
-                        <td style="white-space: pre-line;">Unlimited number of mortgages to finance a property (balance
+                        <td style="white-space: pre-line;" id="t1">Unlimited number of mortgages to finance a property
+                            (balance
                             of sale, 2nd
                             mortgage, collateral)
                             all this, under different conditions (interest rate, payment frequency, etc.)
                         </td>
-                        <td class="ps-5"></td>
+                        <td id="ps-5"><img src="assets/images/tick.png" class="img-fluid" alt="..."></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td style="white-space: pre-line;">Unlimited number of income sources</td>
-                        <td class="ps-5"></td>
+                        <td style="white-space: pre-line;" id="t1">Unlimited number of income sources</td>
+                        <td id="ps-5"><img src="assets/images/tick.png" class="img-fluid" alt="..."></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td style="white-space: pre-line;">Modify the inflation of income and expenses independently for
+                        <td style="white-space: pre-line;" id="t1">Modify the inflation of income and expenses
+                            independently for
                             each year in the
                             financial forecast.
                             Detailed leases (multifamily and commercial). Unlimited number of leases. (Start date,
                             length, tenants, included services, etc.)
                             Possibility to increase the rent for every lease.
                         </td>
-                        <td class="ps-5"></td>
-                        <td></td>
+                        <td id="ps-5"><img src="assets/images/tick.png" class="img-fluid" alt="..."></td>
+                        <td id="ps-5"><img src="assets/images/tick.png" class="img-fluid" alt="..."></td>
                     </tr>
                     <tr>
-                        <td style="white-space: pre-line;">Support and subscription
+                        <td style="white-space: pre-line;" id="t1">Support and subscription
                             FREE technical support by E-mail and toll-free number.
                             No contract! No activation fees! No penalties! You can stop using iAnalyzeREI whenever you
                             decide!
                         </td>
-                        <td class="ps-5"></td>
-                        <td></td>
+                        <td id="ps-5"><img src="assets/images/tick.png" class="img-fluid" alt="..."></td>
+                        <td id="ps-5"><img src="assets/images/tick.png" class="img-fluid" alt="..."></td>
                     </tr>
                     <tr>
                         <td>Plans prices
@@ -273,11 +293,13 @@
             </table>
         </table>
     </div>
+    <!-- section 5 -->
     <div class="layer5 mt-5 mb-5">
-        <div class="container-fluid">
+        <div class="container-fluid" id="k1">
             <p class="text-center p-5 par11">Want to learn more about the software ? Click here !</p>
         </div>
     </div>
+    <!-- section 6 -->
     <div class="layer6">
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3 g-5">
@@ -285,7 +307,7 @@
                     <div class="card">
                         <img src="assets/images/Rectangle 35.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <div class="card" style="background-color: rgba(170, 179, 60, 0.102);">
+                            <div class="card" style="background-color:#fff">
                                 <div class="card-body">
                                     <img src="assets/images/Rectangle 37 (1).png" class="rounded float-start">
                                     To make an informed decision when buying or purchasing an income property !
@@ -298,7 +320,7 @@
                     <div class="card">
                         <img src="assets/images/Rectangle 36.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <div class="card" style="background-color: rgba(170, 179, 60, 0.102)">
+                            <div class="card" style="background-color: #fff;">
                                 <div class="card-body">
                                     <img src="assets/images/Rectangle 37 (2).png" class="rounded float-start">
                                     FREE, fast and courteous customer support !
@@ -311,7 +333,7 @@
                     <div class="card">
                         <img src="assets/images/Rectangle 40.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <div class="card" style="background-color: rgba(170, 179, 60, 0.102);">
+                            <div class="card" style="background-color:#fff">
                                 <div class="card-body">
                                     <img src="assets/images/Rectangle 37 (3).png" class="rounded float-start">
                                     Zoom-imm is easy to use and produces professional reports
@@ -324,75 +346,96 @@
         </div>
         <div class="container pb-5 justify-items-center align-self-center">
             <p class="mt-5 text-center" id="par12">Get the real deal</p>
-            <button type="button" class="btn btn-success text-center" id="btn4">START NOW</button>
+            <div class="row">
+            <div class="col text-center">
+                <button class="btn btn-default" ID="btn4">START NOW</button>
+            </div>
         </div>
+        
     </div>
-
+    </div>
+    <!-- section 7 -->
     <div class="layer7">
-        <div class="container-fluid">
-            <div class="container pt-5 pb-5">
-                <div class="row">
-                    <div class="col-3">
-                        <p class="par13">ABOUT US</p>
-                        <p class="par14" style="white-space: pre-line;">iAnalyzeREI instantly analyzes commercial
-                            and multifamily income properties.
-                            This web-based software is an essential
-                            tool for every real estate professional.
-                        </p>
-                    </div>
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-3">
+                    <!--about info-->
+                    <p class="par13">ABOUT US</p>
+                    <p class="par14" style="white-space: pre-line;">iAnalyzeREI instantly analyzes commercial
+                        and multifamily income properties.
+                        This web-based software is an essential
+                        tool for every real estate professional.
+                    </p>
+                </div>
+                <!--address-->
+                <div class="col-3">
+                    <p class="par15">GET IN TOUCH</p>
+                    <p class="par16" style="white-space: pre-line;"><i class="fa-thin fa-location-dot fas"
+                            style="color: #aab33c;"></i> 85, rue Albert # 202 Sherbrooke
+                        Sherbrooke (QC) Canada J1H 1N1</p>
+                    <p class="par17" style="white-space: pre-line;"><i class="fa-thin fa-phone-volume fas"
+                            style="color: #aab33c;"></i> + 1 222-222-222</p>
+                    <p class="par18" style="white-space: pre-line;"><i class="fa-thin fa-envelope fas"
+                            style="color: #aab33c;"></i> support@magexTechnologies.com</p>
+                </div>
+                <!--quick links-->
+                <div class="col-3">
+                    <p class="par19">QUICK LINKS</p>
+                    <div class="row">
+                        <div class="col-3">
+                            <p class="par20" style="white-space: pre-line;"><a href="#">HOME</a>
 
-                    <div class="col-3">
-                        <p class="par15">GET IN TOUCH</p>
-                        <p class="par16" style="white-space: pre-line;"><i class="fa-thin fa-location-dot fas"
-                                style="color: #aab33c;"></i> 85, rue Albert # 202 Sherbrooke
-                            Sherbrooke (QC) Canada J1H 1N1</p>
-                        <p class="par17" style="white-space: pre-line;"><i class="fa-thin fa-phone-volume fas"
-                                style="color: #aab33c;"></i> + 1 222-222-222</p>
-                        <p class="par18" style="white-space: pre-line;"><i class="fa-thin fa-envelope fas"
-                                style="color: #aab33c;"></i> support@magexTechnologies.com</p>
-                    </div>
-                    <div class="col-3">
-                        <p class="par19">QUICK LINKS</p>
-                        <div class="row">
-                            <div class="col-3">
-                                <p class="par20" style="white-space: pre-line;"><a href="#">HOME</a>
+                                <a href="#">LEARN MORE</a>
 
-                                    <a href="#">LEARN MORE</a>
+                                <a href="#">PLANS</a>
 
-                                    <a href="#">PLANS</a>
+                                <a href="#">CONTACT US</a>
+                            </p>
+                        </div>
+                        <div class="col-3 ms-5">
+                            <p class="par21" style="white-space: pre-line;"><a href="#">SECURITY AND
+                                    CONFIDENTIALITY </a>
 
-                                    <a href="#">CONTACT US</a>
-                                </p>
-                            </div>
-                            <div class="col-3 ms-5">
-                                <p class="par21" style="white-space: pre-line;"><a href="#">SECURITY AND
-                                        CONFIDENTIALITY </a>
-
-                                    <a href="#">TERMS AND CONDITIONS</a>
-                                </p>
-                            </div>
+                                <a href="#">TERMS AND CONDITIONS</a>
+                            </p>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <form style="white-space:pre-line;" name="myform">
-                            <i class="fa-solid fa-user"
-                                style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
+                </div>
+                <!--form-->
+                <div class="col-3">
+                    <form name="form" method="post" action="" style="white-space:pre-line;" id="form1">
+                        <i class="fa-solid fa-user"
+                            style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
                             type="text" name="name" placeholder="Name">
 
-                            <i class="fa-sharp fa-solid fa-envelope"
-                                style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
-                                type="text" name="email" placeholder="Email">
+                        <i class="fa-sharp fa-solid fa-envelope"
+                            style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
+                            type="text" name="email" placeholder="Email">
 
-                            <i class="fa-sharp fa-solid fa-square-phone"
-                                style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
-                                type="text" name="phone" placeholder="Phone">
+                        <i class="fa-sharp fa-solid fa-square-phone"
+                            style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
+                            type="text" name="phone" placeholder="Phone">
 
-                            <i class="fa-solid fa-comment"
-                                style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
-                                type="text" name="comment" placeholder="Comments">
-                        </form>
+                        <i class="fa-solid fa-comment"
+                            style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
+                            type="text" name="comment" placeholder="Comments">
+                    </form>
+                    <div class="container pe-5">
                         <button type="button" class="btn btn-success float-end mt-3 me-5 p-2" id="btn5">SUBMIT</button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid footer" id="h1">
+        <div class="container">
+            <div class="row" id="v1">
+                <div class="col-6">
+                    <p class="mt-4 pt-2 mb-4">©Copyright 2021 - MAGEX TECHNOLOGIES INC. All Rights Reserved.</p>
+                </div>
+                <div class="col-6">
+                    <p class="text-end mt-4 pt-2 mb-4 me-5 pe-5">T & CS</p>
                 </div>
             </div>
         </div>
