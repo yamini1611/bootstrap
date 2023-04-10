@@ -12,47 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d7200c44d8.js" crossorigin="anonymous"></script>
-    <title>PSD WEBSITE</title>
-    <!-- form validation -->
-    <script>
-        $().ready(function () {
-            $("#form1").validate({
-                rules: {
-                    name: {
-                        required:true,
-                        pattern: /^(?=.*[A-Z])(?=.*[a-z]){8,15}$/
-                    },
-                    email: {
-                        required:true,
-                        pattern: /^[a-z]+[@]+[a-z]+[\.][com]{3}$/
-                    },
-                    phone: {
-                        required:true,
-                        pattern: /^?=.*[0-9]{10}$/
-                    }
-                },
-                messages: {
-                    name: {
-                        required:"this is a required field",
-                        pattern: "pattern format is wrong"
-                    },
-                    email: {
-                        required:"this is a required field",
-                        pattern: "pattern format is wrong"
-                    }
-                    ,
-                    phone: {
-                        required:"this is a required field",
-                        pattern: "pattern format is wrong"
-                    }
-                }
-
-            });
-
-        }
-        );
-
-    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="assets/js/validate.js"></script>
+    <title>ZOOM IMM</title>
+   
 </head>
 
 <body>

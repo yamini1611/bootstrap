@@ -23,11 +23,11 @@
 /* fonts */
 @font-face {
     font-family: stylic;
-    src: url(/assets/css/00819\ Regular.ttf)
+    src: url(/assets/font/00819\ Regular.ttf)
 }
 @font-face {
     font-family: open sans;
-    src: url(/assets/css/Open\ Sans\ Light.ttf);
+    src: url(/assets/font/Open\ Sans\ Light.ttf);
 }
 .par1 {
     font-family: stylic;
@@ -248,7 +248,9 @@ tr:nth-child(7) {
 .layer7 .container-fluid {
     background-image: url(/assets/images/Rectangle\ 18.png);
 }
-
+#form1{
+    display:flow-root
+}
 .par13,
 .par15,
 .par19 {
@@ -287,11 +289,8 @@ tr:nth-child(7) {
     font-weight: 700;
 }
 /* form content */
-form input {
-    font-size: 16px;
-    color: #404142;
-    font-weight: 700;
-    font-family: "Open Sans";
+#addon-wrapping {
+    background-color: #acb643;
 }
 /* footer */
 #h1 {
