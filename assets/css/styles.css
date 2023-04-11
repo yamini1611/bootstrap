@@ -1,8 +1,12 @@
 /* layer */
 .layer1 {
     background-image: url(/assets/images/Rectangle\ 1\ \(1\).png);
-    height: 840px;
+    background-size: cover;
+    height: 600px;
+    background-repeat: no-repeat;
+    
 }
+
 /* navbar */
 #navbarSupportedContent a {
     color: #ffff;
@@ -12,6 +16,7 @@
     font-size: 16px;
     padding: 20px;
 }
+
 /* get the deal button */
 #btn1 {
     background-color: #aab33c;
@@ -20,40 +25,47 @@
     height: 40px;
     text-align: center;
 }
+
 /* fonts */
 @font-face {
     font-family: stylic;
     src: url(/assets/font/00819\ Regular.ttf)
 }
+
 @font-face {
     font-family: open sans;
     src: url(/assets/font/Open\ Sans\ Light.ttf);
 }
+
 .par1 {
     font-family: stylic;
     color: #aab33c;
-    font-size: 80px;
+    font-size: 60px;
+    margin-top: 50px
 }
+
 /* section 1 content */
 .par2 {
     font-family: Quicksand;
     color: #ffff;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 700;
-    margin-top: -30px;
+    margin-top: -20px;
     text-transform: uppercase;
 }
+
 /* START NOW  button*/
 #btn2 {
     background-color: #aab33c;
     color: #ffff;
     text-align: center;
-    width: 170px;
-    height: 50px;
+    width: 150px;
+    height: 40px;
     font-size: 18px;
     font-weight: 700;
     font-family: "Quicksand";
 }
+
 /* section 2 */
 .par3 {
     font-family: Quicksand;
@@ -62,27 +74,109 @@
     font-weight: 700;
     color: #404142;
 }
+
 /* cards */
-.card1,
-.card2,
-.card3,
-.card4 {
-    font-family: Quicksand;
-    color: #404142;
-    background-color: rgba(170, 179, 60, 0.302);
-    text-align: center;
-    font-weight: 700;
-    font-size: 24px;
+/* cards section center content */
+.cars-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.card:hover{
+    transform: scale(1.18);
+}
+.passage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
 }
 
-#c4 {
-    font-size: 24px;
-    line-height: 28px;
+.passage span {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
     color: #404142;
     font-weight: 700;
     font-family: "Quicksand";
     text-align: center;
 }
+
+/* cards css */
+.card {
+    opacity: 2;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgba(127, 136, 32, 0.3);
+    margin-left: 30px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#c1 {
+    background-color: #e3e9a6;
+    opacity: 2;
+    margin-left: 200px;
+}
+
+.card-card {
+    margin-top: 20px;
+}
+
+/* cards text */
+.card-text1 {
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #404142;
+    font-weight: 650;
+    font-family: "Quicksand";
+    text-align: center;
+    margin-top: 18px;
+}
+
+.card-text2 {
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #404142;
+    font-weight: 650;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+.card-text3 {
+    margin-top: 13px;
+    font-size: 13px;
+    line-height: 19px;
+    color: #404142;
+    font-weight: 650;
+    font-family: "Quicksand";
+    text-align: center;
+}
+
+.card-text4 {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #404142;
+    font-weight: 650;
+    font-family: "Quicksand";
+    text-align: center;
+    margin-top: 13px;
+}
+
+/* cards img */
+.card-img {
+    margin-top: 10px;
+}
+
 /* section 2 content */
 .par4 {
     font-size: 30px;
@@ -99,6 +193,7 @@
     font-weight: 500;
     font-family: "Quicksand";
 }
+
 /* icons */
 .figure-caption1,
 .figure-caption2 {
@@ -107,14 +202,17 @@
     font-weight: 700;
     font-family: "Quicksand";
 }
+
 /* section 3 */
 .layer3 {
-    background-color: rgba(170, 179, 60, 0.102);
+    background-color:#d8dd9f;
     background-repeat: no-repeat;
+  
 }
 
-.par7 {
-    font-size: 50px;
+
+.par7,.para8 {
+    font-size: 28px;
     color: #404142;
     font-weight: 700;
     font-family: "Quicksand";
@@ -128,25 +226,34 @@
     font-weight: 500;
     font-family: "Quicksand";
 }
+
 /* button 3 */
 #btn3 {
     background-color: #aab33c;
     color: #ffff;
     text-align: center;
-    width: 250px;
-    height: 40px;
-    font-size: 18px;
+    width: 210px;
+    height: 50px;
+    font-size: 15px;
     font-weight: 700;
     font-family: "Quicksand";
 }
+
 /* section 4 */
 /* table content */
 thead {
-    background-color: rgb(170, 179, 59);
+    background-color: rgb(170, 180, 62);
     font-family: Quicksand;
     font-size: 45px;
     color: #ffffff;
     font-weight: 700;
+}
+/* table hover */
+tr:hover{
+    background-color: rgb(212, 221, 111);
+}
+td:hover{
+    background-color: rgb(215, 223, 127);
 }
 
 #tp1,
@@ -202,6 +309,7 @@ tr:nth-child(7) {
     padding-top: 20px;
     padding-left: 69px;
 }
+
 /* section 5 */
 #k1 {
     padding-top: 20px;
@@ -218,6 +326,7 @@ tr:nth-child(7) {
 .layer5 {
     background-image: url(/assets/images/Rect.png);
 }
+
 /* cards */
 .card4 {
     font-size: 14px;
@@ -225,6 +334,7 @@ tr:nth-child(7) {
     font-weight: 500;
     font-family: "Quicksand";
 }
+
 /* section 6 para */
 #par12 {
     font-size: 35px;
@@ -244,13 +354,16 @@ tr:nth-child(7) {
     font-family: "Quicksand";
 
 }
+
 /* section 7 */
 .layer7 .container-fluid {
     background-image: url(/assets/images/Rectangle\ 18.png);
 }
-#form1{
-    display:flow-root
+
+#form1 {
+    display: flow-root
 }
+
 .par13,
 .par15,
 .par19 {
@@ -260,6 +373,7 @@ tr:nth-child(7) {
     font-family: open sans;
     font-weight: bold;
 }
+
 .par14,
 .par16,
 .par17,
@@ -269,15 +383,44 @@ tr:nth-child(7) {
     font-weight: 700;
     font-family: "Open Sans";
 }
-.par20 a,
-.par21 a {
+#b1{
+    margin-top:-32px ;
+    margin-left: -32px;
+}
+#p5{
+    width: 233px;
+height: 61px;
+font-size: 14px;
+line-height: 18px;
+color: #404142;
+font-weight: 500;
+font-family: "Quicksand";
+margin-top: -22px;
+margin-left: 48px;
+}
+#ql {
+
+    width: 142px;
+    height: 134px;
     font-size: 12px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #404142;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+
+#p2 {
+    margin-top: -40px;
+    font-size: 22px;
+    line-height: 100px;
+    text-transform: uppercase;
     color: #404142;
     font-weight: 700;
     font-family: "Open Sans";
-    text-decoration: none;
-    text-decoration-line: none;
 }
+
 /* start now button  */
 #btn5 {
     width: 112px;
@@ -288,16 +431,19 @@ tr:nth-child(7) {
     font-family: "Open Sans";
     font-weight: 700;
 }
+
 /* form content */
 #addon-wrapping {
     background-color: #acb643;
 }
+
 /* footer */
 #h1 {
     background-color: #aab33c;
 }
+/* footer styling */
 #v1 {
-    font-size: 19px;
+    font-size: 11px;
     letter-spacing: 2px;
     line-height: 33px;
     text-transform: uppercase;
@@ -305,4 +451,40 @@ tr:nth-child(7) {
     padding-top: 20px;
     font-weight: 500;
     font-family: "Quicksand";
+}
+#lay7{
+    background-image:url(/assets/images/footerbg.png);
+}
+/* media queries */
+@media screen and (min-width:320px) and (max-width:768px){
+    /* for phone image */
+    #phone{
+        display: none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:768px) {
+    /* for submit button */
+    #btn2{
+        display: none;
+    }
+}
+/* for computer image */
+@media screen and (min-width:320px) and (max-width:768px){
+    #comp{
+        display: none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:768px){
+    /* for table  */
+    #t1{
+        width: 100px;
+        margin-left: -10px;
+        margin-right: -20px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:768px){
+    /* for cards */
+    #c1{
+        margin-left: 20px;
+    }
 }
