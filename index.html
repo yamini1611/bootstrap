@@ -28,7 +28,7 @@
     <div class="container-fluid ps-0 pe-0">
         <div class="layer1">
             <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid">
+                <div class="container-fluid justify-content-end text-end">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -66,8 +66,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-5 mt-5 pt-5">
-                        <div class="par1 mt-4 pt-5">The Best</div>
-                        <div class="par2">
+                        <div class="par1 mt-4 pt-5" id="pg1">The Best</div>
+                        <div class="par2" id="pg1">
                             real estate Analysis<br>
                             software in north america<br>
                             <button type="button" class="btn btn-success" id="btn2">START NOW</button>
@@ -169,8 +169,8 @@
     <div class="layer3 pb-5" id="z5">
         <div class="container pt-5 pb-5 mt-5"  >
             <img src="assets/images/Rectangle 33.png" class="rounded float-start mt-3" id="comp">
-            <div class="col-10 ms-5 ps-5 par7">Zoom-imm is an essential tool for all Real Estate professionals!</div>
-            <div class=" col-10 mt-3 ps-5 par8">Not only is iAnalyzeREI professional and dynamic, filled with pertinent
+            <div class="col-10 ms-5 ps-5 par7" id="zoom">Zoom-imm is an essential tool for all Real Estate professionals!</div>
+            <div class=" col-10 mt-3 ps-5 par8" id="con12">Not only is iAnalyzeREI professional and dynamic, filled with pertinent
                 information, it also
                 produces quality reports. The information displayed makes the report easy to read and understand, even
                 for
@@ -178,11 +178,11 @@
                 to
                 your needs. You can even tell the software exactly what information to print so that the report has
                 everything you want and nothing you don't.</div>
-            <div class=" col-10 mt-3 par9">
+            <div class=" col-10 mt-3 par9" id="con13">
                 If you want to add a personal touch, your picture and your logo can also be inserted in the document.
             </div>
             <div class="mt-2">
-                <p style="white-space: pre-line;">
+                <p style="white-space: pre-line;" id="complete">
                     Complete report, colorful and legible
                     Available abbreviated version
                     Professional aspect
@@ -290,7 +290,7 @@
             <div class="row row-cols-1 row-cols-md-3 g-5">
                 <div class="col">
                     <div class="card1">
-                        <img src="assets/images/Rectangle 35.png" class="card-img-top" alt="card1">
+                        <img src="assets/images/Rectangle 35.png" class="card-img-top" id="cardtop" alt="card1">
                         <div class="card-body">
                             <div class="card1" style="background-color:#fff">
                                 <div class="card-body">
@@ -303,7 +303,7 @@
                 </div>
                 <div class="col">
                     <div class="card1">
-                        <img src="assets/images/Rectangle 36.png" class="card-img-top" alt="card2">
+                        <img src="assets/images/Rectangle 36.png" class="card-img-top" id="cardtop1"  alt="card2">
                         <div class="card-body">
                             <div class="card1" style="background-color: #fff;">
                                 <div class="card-body">
@@ -316,7 +316,7 @@
                 </div>
                 <div class="col">
                     <div class="card1">
-                        <img src="assets/images/Rectangle 40.png" class="card-img-top" alt="card3">
+                        <img src="assets/images/Rectangle 40.png" class="card-img-top"id="cardtop2"  alt="card3">
                         <div class="card-body">
                             <div class="card1" style="background-color:#fff">
                                 <div class="card-body">
@@ -344,7 +344,7 @@
     <div class="layer7" id="lay7">
         <div class="container pt-5 pb-5">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-6 col-lg-3">
                     <!--about info-->
                     <p class="par13">ABOUT US</p>
                     <p class="par14" style="white-space: pre-line;">iAnalyzeREI instantly analyzes commercial
@@ -354,7 +354,7 @@
                     </p>
                 </div>
                 <!--address-->
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-3 col-lg-3">
                     <p class="par15">GET IN TOUCH</p>
                     <p class="par16" style="white-space: pre-line;"><i class="fa-thin fa-location-dot fas"
                             style="color: #aab33c;"></i> 85, rue Albert # 202 Sherbrooke
@@ -364,7 +364,7 @@
                     <p class="par18" style="white-space: pre-line;"><i class="fa-thin fa-envelope fas"
                             style="color: #aab33c;"></i> support@magexTechnologies.com</p>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-6 col-md-6 col-lg-3">
                 <h6 id="p2"><b>QUICK LINKS</b></h6>
                 <div class="row">
                     <div class="font-5 col-5">
@@ -382,7 +382,7 @@
                 </div>
                
                 <!--form-->
-                <div class="col-sm-3 ">
+                <div class="col-sm-6 col-md-6 col-lg-3">
                     <form name="form" class="validate1 was-validated" method="post" action="https://www.google.com/" style="white-space:pre-line;" id="form1">
                         <i class="fa-solid fa-user"
                             style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
@@ -390,7 +390,7 @@
 
                         <i class="fa-sharp fa-solid fa-envelope"
                             style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
-                            type="text" name="email" placeholder="Email" required>
+                            type="text" name="email" placeholder="Email" required width="50px">
 
                         <i class="fa-sharp fa-solid fa-square-phone"
                             style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
@@ -399,10 +399,11 @@
                         <i class="fa-solid fa-comment"
                             style="color: #fff;background-color: #aab33c;justify-self: center;padding:7px"></i><input
                             type="text" name="comment" placeholder="Comments" required>
-                    </form>
+                    
                     <div class="container pe-5">
                         <button type="submit" class="btn btn-success float-end mt-3 me-5 p-2" id="btn5" >SUBMIT</button>
                     </div>
+                </form>
                 </div>
             </div>
         </div>
